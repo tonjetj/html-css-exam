@@ -1,0 +1,308 @@
+/* Common Grid Stylings */
+
+body,
+.container.hero,
+header > div,
+.container.contact {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+}
+
+header,
+footer,
+.bg-image {
+  grid-column: 1/17;
+}
+
+main,
+header > div h1 {
+  grid-column: 3/15;
+}
+
+/* Common Flex Stylings */
+
+header,
+nav,
+nav ul,
+main,
+.program-section,
+.billetter-section,
+.list,
+.container.activities,
+.container.tickets,
+.item.ticket,
+form,
+.contact-info,
+.item.some,
+.item.program ol li > ul {
+  display: flex;
+}
+
+header,
+main,
+.program-section,
+.billetter-section,
+.item.ticket,
+form,
+.contact-info,
+.item.program ol li > ul,
+.container.activities,
+.container.tickets {
+  flex-direction: column;
+}
+
+.list {
+  flex-direction: row;
+}
+
+/* Common Layout Styles */
+
+.container.hero,
+nav ul,
+.item.ticket,
+.contact-info,
+.list.social-media,
+.list.program {
+  gap: 20px;
+}
+
+nav,
+nav ul,
+.item.activity,
+.program-section,
+.billetter-section,
+form,
+.item.ticket,
+.item.program ol li > ul,
+.list.activity,
+.list.artists,
+.list.tickets {
+  justify-content: space-between;
+}
+
+nav li a,
+.container > div,
+.item.program.bg,
+.item.ticket,
+.item.some,
+.list.social-media {
+  padding: 20px;
+}
+
+.container > div,
+.text-animation,
+.item img,
+.item.program.bg,
+.item.ticket,
+.item.some {
+  border-radius: 20px;
+}
+
+.container.activities h2,
+.container.artists > div:nth-child(1) {
+  padding: 0 20px;
+}
+
+.container.contact,
+.list.activity,
+.list.artists,
+.list.tickets {
+  flex-wrap: wrap;
+  gap: 100px 20px;
+}
+
+.list.program .item,
+.list.program li {
+  margin: 20px 0;
+}
+
+.item img,
+form textarea,
+button,
+header > div,
+nav,
+.item img {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  border: 1px solid rgb(222, 245, 226);
+}
+
+.activity h3,
+form input,
+form textarea {
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea,
+.item.program ol li > h4 {
+  border-radius: 5px;
+}
+
+form input,
+form textarea,
+.festival-date {
+  padding: 10px;
+}
+
+nav ul li,
+footer,
+.festival-date,
+.button {
+  text-align: center;
+}
+
+.check-button p,
+button,
+.open-accordion {
+  cursor: pointer;
+}
+
+nav input,
+.check-button {
+  display: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Common color styles */
+
+nav,
+nav ul {
+  background-color: #fff;
+}
+
+.list.program > div.bg:nth-child(1),
+.list.tickets > div:nth-child(3) {
+  background-color: #ffefdb;
+  color: #5f230d;
+}
+
+.list.program > div.bg:nth-child(2),
+.festival-date,
+.list.tickets > div:nth-child(2) {
+  background-color: #e0fafa;
+  color: #164444;
+}
+
+.list.program > div.bg:nth-child(3),
+.list.tickets > div:nth-child(4) {
+  background-color: #dddeff;
+  color: #210f46;
+}
+
+.item.some,
+.program-section {
+  background-color: #cecfff;
+}
+
+/* Header */
+
+header > div {
+  justify-content: center;
+  padding: 100px 0 50px;
+  margin-top: 80px;
+}
+
+header > div,
+nav {
+  align-items: center;
+}
+
+.logo {
+  padding: 15px 50px;
+}
+
+/* Nav */
+
+nav {
+  position: fixed;
+  top: 0;
+  height: 80px;
+  padding: 0 50px;
+  z-index: 999;
+}
+
+nav ul li {
+  width: 150px;
+}
+
+/* Main */
+
+main {
+  gap: 8vh;
+  margin-bottom: 50px;
+}
+
+/* Hero Section */
+/* Hero Section - Hero Image */
+
+.bg-image {
+  background-image: url(../assets/images/konsert-13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 48vh;
+}
+
+/* Hero Section - Program  */
+
+.program-section {
+  grid-column: 1/12;
+  color: #2a2a5a;
+}
+
+.list.program .item {
+  flex: 1;
+}
+
+/* Hero Section - Billetter  */
+
+.billetter-section {
+  grid-column: 12/17;
+  background-color: #d7ffe1;
+  color: #25382a;
+  height: 25vh;
+}
+
+/* Aktiviteter Section */
+
+.item.activity {
+  gap: 30px;
+  flex-basis: 30%;
+}
+
+.activity img {
+  height: 320px;
+}
+
+.activity > div {
+  margin-top: 20px;
+  padding: 0 20px 0 0;
+}
+
+.item img {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Artister Section */
+
+.artist img {
+  height: 250px;
+}
+
+.item.artist {
+  flex-basis: 22%;
+}
+
+/* Sosial Media Section */
+
+.item.some:hover {
+  background-color: #e6fce7;
+}

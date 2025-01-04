@@ -1,0 +1,19 @@
+form {
+  grid-column: 1/7;
+  padding: 20px;
+  background-color: rgb(201, 197, 245);
+  border-radius: 10px;
+  height: 100%;
+}
+
+form textarea {
+  max-width: 100%;
+}
+
+.contact-info {
+  grid-column: 7/17;
+}
+
+.faq-liste > li {
+  margin-bottom: 30px;
+}

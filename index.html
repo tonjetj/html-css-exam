@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bli med på Sildajazzen og opplev årets gøyeste kultur festival!"
+    />
+    <title>Sildajazzen</title>
+    <link rel="stylesheet" href="https://use.typekit.net/mrt1ffm.css" />
+    <link rel="stylesheet" href="./css/globalStyles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/billetter.css" />
+    <link rel="stylesheet" href="./css/program.css" />
+    <link rel="stylesheet" href="./css/kontakt.css" />
+    <link rel="stylesheet" href="./css/tabletStyles.css" />
+    <link rel="stylesheet" href="./css/mobileStyles.css" />
+  </head>
+  <!-- Bilder som er brukt er hentet fra www.freepik.com, www.unsplash.com og www.pixabay.com -->
+  <body>
+    <header>
+      <nav>
+        <div>
+          <a href="index.html" class="logo"> Sildajazzen </a>
+        </div>
+
+        <!-- Skjult checkbox løsning til hamburgermeny er hentet fra eget innsendt arbeidskrav -->
+        <input
+          type="checkbox"
+          id="checked"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+        />
+        <label
+          for="checked"
+          class="check-button"
+          aria-label="Åpne navigasjonsmeny"
+        >
+          <p class="open">=</p>
+        </label>
+
+        <ul id="primary-menu">
+          <li><a href="index.html" aria-current="page">Hjem</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="billetter.html">Billetter</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h1>Bli med på årets <span class="text-animation"></span> festival!</h1>
+      </div>
+    </header>
+
+    <main>
+      <section class="container hero">
+        <div class="bg-image">
+          <h2 class="festival-date">7. - 9. august</h2>
+        </div>
+
+        <div class="program-section">
+          <h2>Program</h2>
+
+          <div class="list program">
+            <div class="item program">
+              <h3>Torsdag 7.</h3>
+              <ol>
+                <li>
+                  <h4>17:00</h4>
+                  <ul>
+                    <li>Åpningsseremoni på Rådsplassen</li>
+                  </ul>
+                </li>
+
+                <li>
+                  <h4>19:00</h4>
+                  <ul>
+                    <li>Konsert med Morten Abel på Sjøhuset</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+
+            <div class="item program">
+              <h3>Fredag 8.</h3>
+              <ol>
+                <li>
+                  <h4>19:00</h4>
+                  <ul>
+                    <li>Konsert med Cat Power på Gamle Slakteriet</li>
+                  </ul>
+                </li>
+
+                <li>
+                  <h4>21:00</h4>
+                  <ul>
+                    <li>Konsert med Gavin DeGraw på Sjøhuset</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+
+            <div class="item program">
+              <h3>Lørdag 9.</h3>
+              <ol>
+                <li>
+                  <h4>19:00</h4>
+                  <ul>
+                    <li>Highasakite konsert på Maritim Scene</li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <a href="program.html" class="button" aria-label="Se hele programmet">
+            Se fullstendig programplan
+          </a>
+        </div>
+
+        <div class="billetter-section">
+          <div>
+            <h2>Billetter</h2>
+            <p>Skaff deg billetter til Sildajazzen 2025!</p>
+          </div>
+          <a href="billetter.html" class="button" aria-label="Finn billetter">
+            Finn billetter
+          </a>
+        </div>
+      </section>
+
+      <section class="container artists">
+        <div>
+          <h2>Artister</h2>
+          <h3>
+            Her er de største headlinerne som skal opptre på Sildajazzen 2025.
+            Flere artister annonseres snart!
+          </h3>
+        </div>
+
+        <div class="list artists">
+          <div class="item artist">
+            <img
+              src="./assets/images/konsert-7.jpg"
+              alt="Ingrid Helene Håvik, vokalisten i Highasakite."
+            />
+
+            <h4>Highasakite</h4>
+          </div>
+
+          <div class="item artist">
+            <img
+              src="./assets/images/konsert-13.jpg"
+              alt="Gavind DeGraw holder konsert på en scene sammen med bandet sitt."
+            />
+
+            <h4>Gavin DeGraw</h4>
+          </div>
+
+          <div class="item artist">
+            <img
+              src="./assets/images/konsert-3.jpg"
+              alt="Cat Power synger inn i mikrofon under konsert."
+            />
+
+            <h4>Cat Power</h4>
+          </div>
+
+          <div class="item artist">
+            <img
+              src="./assets/images/konsert-8.jpg"
+              alt="Artisten Morten Abel som holder en gitar på en scene."
+            />
+
+            <h4>Morten Abel</h4>
+          </div>
+        </div>
+      </section>
+
+      <section class="container activities">
+        <div>
+          <h2>Aktiviteter</h2>
+          <p>
+            Festivalen er for alle, store som små. Alle aktiviteter er
+            tilgjengelig hver dag. Alle aktiviteter for barn er gratis!
+          </p>
+        </div>
+
+        <div class="list activity">
+          <div class="item activity">
+            <img
+              src="./assets/images/aktiviteter-barn-2.jpg"
+              alt="Barn som spiser sukkerspinn"
+            />
+            <div>
+              <h3>Åpent tivoli</h3>
+              <p>
+                Ta en tur innom tivoliet i Byparken! Alle karuseller er gratis.
+                Her finner du flere spill og aktiviteter du kan prøve ut.
+              </p>
+            </div>
+          </div>
+
+          <div class="item activity">
+            <img
+              src="./assets/images/aktiviteter-barn-3.jpg"
+              alt="To barn som former leire"
+            />
+            <div>
+              <h3>Keramikk på kunstgalleriet</h3>
+              <p>
+                Stikk innom kunstgalleriet og meld deg opp til keramikk kurs med
+                pottemaker Freia!
+              </p>
+            </div>
+          </div>
+
+          <div class="item activity">
+            <img
+              src="./assets/images/kunst-3.jpg"
+              alt="En skulptur av en mannlig fisker"
+            />
+            <div>
+              <h3>Skulpturutstilling</h3>
+              <p>
+                Nye skulpturer plassert langs kaien laget av kunstlinjen på
+                Skeisvang VGS
+              </p>
+            </div>
+          </div>
+
+          <div class="item activity">
+            <img
+              src="./assets/images/aktiviteter-1.jpg"
+              alt="To damer som ser gjennom bøker"
+            />
+            <div>
+              <h3>Festivalbodene</h3>
+              <p>
+                Ta en tur innom festivalbodene i Haraldsgata! Her finner du alt
+                fra matboder, lokalproduserte produkter og klesmerker,
+                second-hand, kunst, og mye mer!
+              </p>
+            </div>
+          </div>
+
+          <div class="item activity">
+            <img src="./assets/images/mat-1.jpg" alt="Et brett med sild" />
+            <div>
+              <h3>Sildabordet</h3>
+              <p>
+                Velkommen til Sildabordet! Her steller vi i stand til oppsatt
+                sildabord i Haraldsgata hver dag slik at alle kan få en
+                smaksprøve på lokalprodusert sild i alle slag!
+              </p>
+            </div>
+          </div>
+
+          <div class="item activity">
+            <img
+              src="./assets/images/improv.jpg"
+              alt="Mann på scene som snakker til publikum"
+            />
+            <div>
+              <h3>Improv på Festiviteten</h3>
+              <p>
+                Få deg en reell latter på Festiviteten. Hver kveld kl 21 blir
+                det duket opp til improv teater med den lokale Latterklubben.
+              </p>
+            </div>
+          </div>
+
+          <div class="item activity">
+            <img
+              src="./assets/images/kunst-1.jpg"
+              alt="Mann som poserer foran en vegg med utstilt kunst"
+            />
+            <div>
+              <h3>Kunstutstilling</h3>
+              <p>
+                Pedro stiller ut sin nye kunstutstilling på kulturhuset. Ta
+                gjerne turen innom for å hilse på den unge og talentfulle
+                kunstneren!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container social-media">
+        <div>
+          <h2>Finn oss på sosiale medier!</h2>
+        </div>
+
+        <ul class="list social-media">
+          <li class="item some">
+            <a href="#">Facebook</a>
+          </li>
+
+          <li class="item some">
+            <a href="#">Instagram</a>
+          </li>
+
+          <li class="item some">
+            <a href="#">TikTok</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 all rights reserved</p>
+    </footer>
+  </body>
+</html>

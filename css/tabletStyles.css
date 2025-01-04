@@ -1,0 +1,117 @@
+/* Tablet Screen */
+@media (max-width: 1150px) {
+  /* Fonts */
+
+  h3,
+  .logo,
+  .festival-date {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .item.program ol li > p,
+  .item.program h3 {
+    font-weight: 700;
+    gap: 0;
+  }
+
+  /* Layout */
+
+  .festival-date {
+    width: 30%;
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* Font sizes */
+
+  .hero-container h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .check-button p {
+    font-size: 40px;
+  }
+
+  /* Layout */
+  /* Nav */
+
+  nav,
+  nav ul li,
+  #checked:checked ~ ul {
+    width: 100%;
+  }
+
+  .check-button,
+  #checked:checked ~ ul {
+    display: block;
+  }
+
+  .logo,
+  .check-button {
+    padding: 0 20px;
+  }
+
+  nav {
+    align-items: center;
+    padding: 0;
+  }
+
+  nav ul {
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  }
+
+  nav ul li {
+    margin: 10px auto 40px;
+    text-align: end;
+    width: 100%;
+  }
+
+  #checked:checked ~ ul {
+    top: 80px;
+    position: absolute;
+    border-bottom: 1px solid #000;
+  }
+
+  /* Main */
+  /* Billetter */
+
+  .billetter-section {
+    height: 27vh;
+  }
+
+  /* Program */
+
+  .list.program {
+    flex-direction: column;
+  }
+
+  /* Aktiviteter Section */
+
+  .item.activity,
+  .item.artist,
+  .item.ticket {
+    flex-basis: 48%;
+  }
+
+  .activity img {
+    height: 280px;
+  }
+
+  /* Kontaktskjema */
+
+  form,
+  .contact-info,
+  .contact .faq {
+    grid-column: 1/17;
+  }
+}

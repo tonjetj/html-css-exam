@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font Styling */
+
+body,
+button,
+h4 {
+  font-family: "Quicksand", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+h1,
+h2,
+h3,
+h5 {
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  letter-spacing: 2px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.logo {
+  font-family: "cy", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+body,
+a,
+button {
+  color: #000;
+}
+
+h1 {
+  font-size: 86px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+.item.program ol li > h4 {
+  font-size: 16px;
+}
+
+a,
+p,
+li,
+button,
+.button {
+  font-size: 20px;
+}
+
+.contact-info h4 {
+  font-weight: 400;
+}
+
+nav ul li:hover {
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header H1 animation */
+
+.text-animation::after {
+  content: "jazz";
+  animation: changeText 10s infinite;
+}
+
+.text-animation {
+  padding: 10px 10px 0px;
+  background-color: #ffe46a;
+}
+
+@keyframes changeText {
+  0% {
+    content: "jazz";
+  }
+
+  50% {
+    content: "kultur";
+  }
+
+  100% {
+    content: "jazz";
+  }
+}
+
+/* Button UI Styling */
+
+button,
+.button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.507);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.billetter-section .button:hover {
+  color: #d7ffe1;
+  background-color: #25382a;
+}
+
+.program-section .button:hover {
+  color: #cecfff;
+  background-color: #2a2a5a;
+}
+
+button.first:hover {
+  color: #1b0b3b;
+  background-color: #e6daff;
+}
+
+button.second:hover {
+  color: #e0fafa;
+  background-color: #164444;
+}
+
+button.third:hover {
+  color: #ffefdb;
+  background-color: #5f230d;
+}
+
+button.fourth:hover {
+  color: #dddeff;
+  background-color: #210f46;
+}

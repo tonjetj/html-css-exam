@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kom i kontakt med oss for spørsmål om Sildajazzen 2025. Finn kontaktinformasjon, e-postadresse og telefonnummer her. Vi hjelper deg gjerne!"
+    />
+    <title>Kontakt - Sildajazzen</title>
+    <link rel="stylesheet" href="https://use.typekit.net/mrt1ffm.css" />
+    <link rel="stylesheet" href="./css/globalStyles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/billetter.css" />
+    <link rel="stylesheet" href="./css/program.css" />
+    <link rel="stylesheet" href="./css/kontakt.css" />
+    <link rel="stylesheet" href="./css/tabletStyles.css" />
+    <link rel="stylesheet" href="./css/mobileStyles.css" />
+  </head>
+  <!-- Bilder som er brukt er hentet fra www.freepik.com, www.unsplash.com og www.pixabay.com -->
+  <body>
+    <header>
+      <nav>
+        <div>
+          <a href="index.html" class="logo"> Sildajazzen </a>
+        </div>
+
+        <!-- Skjult checkbox løsning til hamburgermeny er hentet fra eget innsendt arbeidskrav -->
+        <input
+          type="checkbox"
+          id="checked"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+        />
+        <label
+          for="checked"
+          class="check-button"
+          aria-label="Åpne navigasjonsmeny"
+        >
+          <p class="open">=</p>
+        </label>
+
+        <ul id="primary-menu">
+          <li><a href="index.html">Hjem</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="billetter.html">Billetter</a></li>
+          <li><a href="kontakt.html" aria-current="page">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h1>Kontakt</h1>
+      </div>
+    </header>
+
+    <main class="contact-main">
+      <section class="container contact">
+        <form action="#" method="post" aria-label="Kontaktskjema">
+          <label for="name">Navn:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Ola Normann"
+            aria-label="Navnet ditt"
+          />
+
+          <label for="email">E-post:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="ola_normann@eksempel.com"
+            aria-label="E-postadressen din"
+          />
+
+          <label for="message">Melding:</label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            rows="5"
+            placeholder="Skriv teksten din her"
+            aria-label="Skriv beskjeden din her"
+          ></textarea>
+
+          <button type="submit" aria-label="Send inn kontaktskjema">
+            Send inn
+          </button>
+        </form>
+
+        <div class="contact-info">
+          <h2>Kontaktinformasjon</h2>
+          <h3>
+            Ring oss gjerne på telefon, eller send oss en e-mail til vår
+            e-postadresse!
+          </h3>
+          <ul>
+            <li><p>Telefonnummer: +47 123 45 678</p></li>
+            <li><p>E-postadresse: sildajazzen@gmail.com</p></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="container faq">
+        <h2>Ofte stilte spørsmål:</h2>
+        <ul class="faq-liste">
+          <li>
+            <h3>Når er Sildajazzen åpent?</h3>
+            <ol>
+              <li>Torsdag 7. august: 17:00 - 01:00</li>
+              <li>Fredag 8. august: 15:00 - 02:00</li>
+              <li>Lørdag 9. august: 12:00 - 02:00</li>
+            </ol>
+          </li>
+
+          <li>
+            <h3>Hvor arrangeres Sildajazzen?</h3>
+            <p>
+              Sildajazzen arrangeres i Haugesund sentrum. Se "Program" for å
+              finne mer info om lokaler.
+            </p>
+          </li>
+
+          <li>
+            <h3>Hvem er festivalen for?</h3>
+            <p>
+              Sildajazzen er for alle, store som små! Vi legger opp til
+              arrangementer for de som er glad i musikk og teater, samt gratis
+              aktiviteter for barn. Det vil være kunstutstillinger og mange
+              ulike boder hvor man enten kan titte eller velge å kjøpe med seg
+              noe fint hjem.
+            </p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 all rights reserved</p>
+    </footer>
+  </body>
+</html>

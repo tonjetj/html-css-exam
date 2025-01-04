@@ -1,0 +1,8 @@
+.item.ticket {
+  flex-basis: 23%;
+}
+
+.list.tickets > div:nth-child(1) {
+  background-color: #1b0b3b;
+  color: #e6daff;
+}

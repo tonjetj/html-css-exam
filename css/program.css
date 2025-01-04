@@ -1,0 +1,21 @@
+.item.program ol li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.item.program ol li > ul {
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+.item.program ol li > h4 {
+  background-color: rgb(244, 242, 255);
+  padding: 2px 5px;
+  width: 52px;
+  border: 1px solid #c9c9c9;
+}
+
+.festival-date {
+  width: 25%;
+  border-radius: 15px;
+}

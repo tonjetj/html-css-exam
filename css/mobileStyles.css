@@ -1,0 +1,76 @@
+/* Mobile Screen */
+@media (max-width: 768px) {
+  /* Font sizes */
+
+  header > div h1 {
+    font-size: 48px;
+  }
+
+  /* Common layout */
+
+  header,
+  footer,
+  .container.hero > div {
+    grid-column: 1/17;
+  }
+
+  .item.activity,
+  .item.artist,
+  .item.ticket {
+    flex-basis: 100%;
+  }
+
+  main,
+  header > div h1 {
+    grid-column: 2/16;
+  }
+
+  form,
+  .contact-info {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .container.contact,
+  .list.social-media {
+    flex-direction: column;
+  }
+
+  /* Header */
+
+  header > div {
+    margin-top: 0;
+  }
+
+  /* Main */
+
+  .container.hero {
+    grid-template-rows: 48vh auto auto;
+  }
+
+  .festival-date {
+    width: 40%;
+  }
+
+  .bg-image {
+    background-position: center;
+  }
+
+  /* Billetter Section */
+
+  .list.tickets {
+    gap: 50px;
+    margin: 30px auto;
+  }
+
+  /* Artists Section */
+
+  .artist img {
+    height: 300px;
+    object-position: top;
+  }
+
+  .list.artists {
+    gap: 20px;
+  }
+}
